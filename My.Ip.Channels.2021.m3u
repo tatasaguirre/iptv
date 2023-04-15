@@ -24,6 +24,10 @@ SP: Spain VIP
 #EXTVLCOPT:network-caching=1000 
 https://live.atresmediainternacional.com/ATRESMEDIA/a3cine-index.m3u8
 
+#EXTINF:-1 tvg-logo="https://imgur.com/3FNriS1.png" tvg-id="TVUniversidad.us" channel-id="TVUniversidad.us" tvg-name="TVUniversidad"  channel-number="100" tvc-guide-stationid="" tvg-country="SPAIN" tvg-language="SPANISH" group-title="SPAIN TV" status="online",TVUniversidad|HD 720p
+#EXTVLCOPT:network-caching=1000 
+https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+
 
 // US: ION PLus
 
