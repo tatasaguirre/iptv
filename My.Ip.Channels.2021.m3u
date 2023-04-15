@@ -1,4 +1,12 @@
 #EXTM3U
+
+#EXTINF:-1 tvg-logo="https://imgur.com/hApN1Js.png" tvg-id="KCWX.us" channel-id="KCWX.us" tvg-name="KCWX Texas "  channel-number="" tvc-guide-stationid="" tvg-country="US" tvg-language="English" group-title="USA TV" status="online",KCWX Texas| HD 720p
+#EXTVLCOPT:network-caching=1000 
+http://65.36.6.216:1935/live/kcwx.smil/chunklist_w879211551_b850000_sleng.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="New EPG" tvg-name="Gen Tv" tvg-logo="New Logo" group-title="New Group",Gen Tv
 https:\\videohd.live:19360\8010\8010.m3u8?_=1
 #EXTINF:-1 tvg-id="New EPG" tvg-name="HALLMARK" tvg-logo="New Logo" group-title="New Group",HALLMARK
@@ -79,7 +87,7 @@ https://cdn87.theus6tv.tk/locals/SanDiego/xhtit-tdt2.m3u8
 https://panel.dattalive.com:443/8250/8250/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://santiagotv36.com/wp-content/uploads/2014/09/Logo-web1.png" group-title="LATINOS SPANISH HD",50 Telemilenio Rep. Dominicana HD
 http://cm.hostlagarto.com:8081/Telemilenio/Telemilenio.myStream/playlist.m3u8 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://si.cultura.cr/sites/default/files/styles/thumbnail_fichas_eventos_gallery_105x70/public/hbtv_ticavision.jpg?itok=5c8sWiUG" group-title="LATINOS SPANISH HD",54 HBTV TicaVisión HD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://si.cultura.cr/sites/default/files/styles/thumbnail_fichas_eventos_gallery_105x70/public/hbtv_ticavision.jpg?itok=5c8sWiUG" group-title="LATINOS SPANISH HD",54 HBTV TicaVisiÃ³n HD
 http://k3.usastreams.com:1935/HBTV/HBTV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Telemundo Telenovelas TV HD" tvg-logo="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABkCAMAAACLpV+NAAAA0lBMVEX////DEBDrEBCREBDqAACOAAD8/Pz72dnexcWwcXHyhoaIAAC3goLxgoIQKjuYnKIkN0bs7e4AGzCJkJb09fXBxMfg4uM7SVVCTlm/AAAAACAXL0B+hYwHJjjNEBCtsbUADymyEBDrwsLy2dljbXX4wcHWEBC3ur7sLCzNqKj+9vb1oaHwbGzQAAC0AAAAAAsAAADT1ddSXWeZMTGgS0vtSUn3uLiRGxuaOTnWeHilEBCqZWWhAADKQ0PTtLTy5eXsOzvzlpbAkJCoWVnuWFgAABXdyMKNAAAEvElEQVRoge3a/0OjNhQA8GC/WK0mIVCohAie2HrVTam33e1uO+/c/P//pb0kUFsIVG9AN+f7wUIa8ulLHrSlImSMh0FvLT7effjy8H60MPddxeLi6vD6l8u99eh/33LQZhxsuL3eAGI87h2NhhUHDH897uvY23SP/5Gb8+PxwcjQ/eK6BObuYROuou/ebya9uLqsQJt0pfxxTV5c7VWrjboQ40/5bF9c1qCNu5DzgazuxXVdri24IN+N0MXeFrUFF1L+bavahts7O5ntwrUgTrt3LetZcNOuZT0Pbtg9y11ryxo36z6x2+BG3c/WenTnWtaz4Sbds4JbV1sNup+tYtQscYNuia2b6ebc4izXJ9yca2BrEm7MNaVbk3BjrpGtTrgpt1zM9Qk35VawledwQ25VupUT/WLXGBVVpSe6b4yXfV/4emSKL4NK1jrtXx+b4uJFrjlGNa7V329AqHB/r3H3WnR/rnF/eoXuyb/QPXl97rta9/zNfXP/U+7/7fzd2XVyV+8Lde+/u3Lb/LwxON2NO65mT1t1zyrdWatuzef2Vt2a7yntulUTPWvZrf4e2rJrTnjWult5n6Ft15TwrAO36j5S627FfbPW3Yr7hO275vuiHbjG+8AduMb73l24azO9uoHUiWv4XaMbt7e5uN25pd+tunJ71snGzcHO3PEf/R24g/FXdLX+62837vjDPTTsf+t36g56D1nT91XK7buDwcH9qu08/6m9ZXcA6uY37H39zxutuoPxp4f7Uvv54SXQ7bn3fx6dm/9RZvHu+K/y63mLt3iLVxrDp1jbkZvlPqjYvNagHwt7tufZ7jqWRnNPbTmPQRY3IbKzzVsHofA2yQlyo5sfbeTigKXZGH5wO1f91G6iHoPHpdoLb0P4S4M4DgIaetkRJI4ZC6ZyAEzzwCmy823o6GDs5W7WCQZ2fcr1yMgRVExkP676hTyA10mpcNSTmNoITSn1fSp4PFdswjCd+pgHAHswEyHnE9uD+bApD13XtYfoaTzlshSa5YSBS9lENrqMZi7VLo6VS5mnX5R0+XSI3EjoNsJwAmPMYTd75TlhUxzmS7HhxvmmdHXC4Jld9fTKlU9FQg7rUu67+kgx/xGXxsC5gppdn4uo4KKY+gilMVZLgFLBw6LLl4QQpzTP2IHmiXJxuJQZOZhFwuDyBEi34E45HULWWZpQU37RpZwxduMWXSqgDkPtOnMRpy7nScqMLuIiLLgJhz0idGEgxCktudMwDJNSvjyB5ijLF/k4ITjwqtxJLNKS69a7Vetrr9YXekCBqvFz1950USKW2XmUuVBRUMdMLrwcA9Ply+sKegwpnINe5pLsPE84y11YBCi6J9eL5bBezPUVZiK480P5onmSEJS5kAZBuiRR5kLbuutOqbrGLblQl7olj9Oiq+qZEFc1yiIm3qqeZUFrV4d24YTCziSCsytauXJBtetHUYh5TFT/mPK5lyZ4dcVjInM5hsJlLJYnCsNqE84AojcZXN9cnz25sSqUeQBHwbVQgVioB49hDq4v9Bh6XVEUQEdo8rO3igkheh5dkodq1DFEab7pwaWdzHPXU5MBj87Sn4a6VgmJ8iFduZdNU36EM6V+Igf4G1EmlMw8gjDpAAAAAElFTkSuQmCC" group-title="LATINOS SPANISH HD",Telemundo Telenovelas TV HD
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
